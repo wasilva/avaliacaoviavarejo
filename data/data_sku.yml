@@ -1,0 +1,22 @@
+#SMARTPHONE
+sku: ["11549448", "11549451", "4826630", "4826632", "7316834", "7316833"]
+sku_video: ["7504913"]
+sku_produto: "Chapa Mondial"
+produto: ["Chapa Mondial", "batedeira"]
+
+sku_retira: ["bicicleta", "fogão", "cadeira"]
+
+sku_lojista: ["7316834"]
+
+sku_correios: ["12084575"]
+cep_correios: ["09510-970"]
+
+sku_correios_ex: ["7504912", "1698065"]
+cep_correios_ex: ["03133200"]
+
+sku_lockers: ["1712676"]
+cep_lockers: ["04004040", "04063-000"]
+# sku_reserva: []
+
+# produto: ["TV Samsung", "Secador", "Chapinha", "Fogão", "Geladeira"]
+

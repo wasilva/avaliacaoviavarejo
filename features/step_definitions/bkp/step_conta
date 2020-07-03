@@ -1,0 +1,7 @@
+Quando("preencho o formulario de cadastro com o {string}") do |tipo_conta|
+  @conta.preenche_cadastro_sucesso(tipo_conta)
+end
+
+Entao("visualizo a pagina minha conta") do
+  @validacao.valida_pagina_minha_conta
+end

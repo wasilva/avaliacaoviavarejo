@@ -1,0 +1,18 @@
+msg_obrigatoriedade_nome: Por favor, informe um nome
+msg_obrigatoriedade_cpf: Por favor, informe um CPF
+msg_obrigatoriedade_data_nasc: Por favor, informe uma data válida
+msg_obrigatoriedade_tel: Por favor, informe um celular
+msg_obrigatoriedade_email: Por favor, informe um e-mail
+msg_obrigatoriedade_confirma_email: Por favor, informe um e-mail de confirmação
+msg_obrigatoriedade_senha: Por favor, informe uma senha
+msg_obrigatoriedade_confirma_senha: Por favor, confirme a senha
+msg_obrigatoriedade_razao_social: Por favor, informe uma razão social
+msg_obrigatoriedade_nome_fantasia: Por favor, informe um Nome Fantasia
+msg_obrigatoriedade_inscricao_estadual: Por favor, informe uma Inscrição Estadual
+msg_obrigatoriedade_cnpj: Por favor, informe um CNPJ
+msg_cep_invalido: Informe um Cep válido.
+msg_cep_invalido_pdp_carrinho: Por favor, digite um CEP válido
+
+termo_retira: A retirada deve ocorrer durante o horário de funcionamento do Ponto de Retirada escolhido no momento da compra. Não nos responsabilizamos pelo transporte do item;
+trocar_forma_pagamento: Infelizmente a administradora do seu cartão não autorizou o pagamento(s) do(s) produto(s) escolhidos.
+email_esquecido: Encontramos um resultado com seus dados

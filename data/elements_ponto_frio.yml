@@ -1,0 +1,17 @@
+botao_buscar: button[class="search-item-button"]
+botao_comprar: button[class="btn btn-primary expanded"]
+# subtotal: div[class='lst-item-action']
+# link_outras_lojas: span[class='text-primary']
+# banner_marketplace_garante: ul[class='lst prod-garante-sellers']
+# bloco_outros_lojistas: div[class='lst-item-action']
+# tipo_entrega: h3[class='lst-radio-item-title']
+# minha_conta: span[class='text-control']
+# botao_continuar: .btn.primary.expanded
+# botao_retira_facil: .btn.expanded
+# botao_retirar_nesta_loja: .btn.expanded
+# lnk_meus_pedidos_resumo: a[class='link']
+# link_confira_regras_entrega: a[class='tooltip-link']
+# botao_reservar: button[class="btn neutral expanded accent compact"]
+
+# carrinho_label_retira: ul[class='lst lst-bordered lst-no-top-border']
+# resumo_label_retira: ul[class='lst lst-bordered']

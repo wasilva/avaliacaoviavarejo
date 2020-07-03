@@ -1,0 +1,12 @@
+source 'http://rubygems.org/'
+
+gem 'selenium-webdriver',       '3.4.0'
+gem 'cucumber',                 '3.1.0'
+gem 'rspec'                 
+gem 'capybara',                 '2.14.1'
+gem 'pry',                      '0.10.4'
+gem 'faker'
+gem 'ffaker'
+gem 'page-object'
+gem 'parallel_tests'
+gem 'rake'

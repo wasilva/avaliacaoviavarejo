@@ -1,0 +1,147 @@
+# HOME PAGE #
+#menu_principal: //*[@ng-click='openMenu()']
+menu_principal: a[class='ic-navbar ic-menu']
+campo_pesquisa: input[type="search"]
+botao_buscar: button[type='submit']
+botao_buscar2: button[class='navbar-submit ic-navbar ic-search']
+produto_busca: div[class="prod-item"]
+
+# FILTRO #
+botao_filtrar: a[class='botao primary expanded']
+botao_filtro_faixa: div[class='lst-item-cell lst-item-cell-expanded']
+botao_faixa_filtro: label[class='checkbox-label lst-checkbox-position lst-checkbox-title']
+botao_aplicar: a[class='botao primary expanded']
+lbl_resultados: span[class='body-light']
+
+# TELA DE LOGIN #
+usuario: input[id='email']
+senha: input[id='password']
+botao_entrar: input[value='Entrar']
+botao_desconectar: a[ng-click='account.logout()']
+flash_login_result: div[class='flsh-description']
+cadastre_se: a[ng-click="authentication.goToCreateUser()"]
+
+# MENU HOME #
+minha_conta: span[class='text-control']
+meus_pedidos: span[class='text-control']
+
+# CADASTRO DE CLIENTE PESSOA JURIDICA #
+lblminha_conta: //h2[text()='Minha Conta']
+
+razao_social: input[id='company_name']
+nome_fantasia: input[id='trading_name']
+site: input[id='site']
+radio_button_pj: label[class='input-label radio-label radio-label-text']
+input_cnpj: input[id='cnpj']
+inscricao_estadual: input[id='state_registration']
+
+# CADASTRO DE CLIENTE PESSOA FISICA #
+nome: input[id='name']
+sexo_masc: label[for='male']
+cpf: input[id='cpf']
+data_nasc: input[id='birth']
+tel: input[id='cellphone']
+email: input[id='email']
+confirma_email: input[id='emailConfirmation']
+senha: input[id='password']
+confirma_senha: input[id='passwordConfirmation']
+botao_concluir_cadastro: input[class="btn primary expanded"]
+
+# DETALHES DO PRODUTO #
+outras_lojas: (//button[@ng-click='sellers.addCart(seller.id)'])[1]
+garantia_total: //h5[text()='Garantia total a você']
+botao_play_video_pdp: a[class="btn primary btn-rounded-icon play-video ic-play-button"]
+overlay_video_pdp: div[class="overlay-video__content"]
+iframe_video_pdp: '*[src="https://www.youtube.com/embed/J2CNgxfVC7U?autoplay=1&rel=0&showinfo=0"]'
+botao_fechar_video: i[class="ic-gd-styl ic-exit"]
+botao_usar_minha_localizacao: div[class="input-ic-action ic-get-location"]
+link_outras_lojas_cb: span[class='text-alert']
+
+# PAGINA VENDEDORES #
+botao_comprar_lojista: button[class="btn success expanded btn-container"]
+botao_retirar_lojista: button[class="btn primary expanded"]
+
+# PAGINA PRODUTO #
+botao_comprar: button[class="btn btn-primary expanded btn-large"]
+botao_retira_rapido: button[class="btn btn-secondary expanded btn-large"]
+
+# PAGINA PRODUTO - MODAL CEP
+input_cep: div[class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-pattern"]
+botao_pesquisar_cep: button[class="input-ic input-ic-action ic-gd-styl ic-search"]
+
+# SERVIÇO - GE #
+botao_recusa_seguro: button[class='btn neutral expanded']
+
+# MAPA MODAL LEVE #
+botao_retirar_neste_local: button[class="btn btn-primary expanded"]
+
+# DETALHES DO CARRINHO#
+botao_continuar_carrinho: span[name='button-loading-value']
+
+# CHECKOUT ENDEREÇO #
+tipo_entrega: h3[class='lst-radio-item-title']
+botao_continuar_endereco: button[ng-click='checkout.nextStep()']
+input_numero_telefone: div[class="ng-pristine ng-untouched ng-empty ng-valid-pattern ng-valid ng-valid-required"]
+
+# MEIO DE PAGAMENTOS #
+botao_continuar_pagamento: button[ng-click='clickButton()']
+# opcao_pagamento: div[class='lst-item-cell lst-item-cell-expanded'] - antigo
+opcao_pagamento: div[class="lst-item-cell ic-large-container icon-wrapper"]
+tipo_pagamento: li[class='lst-item']
+
+cartao_credito: Cartão de crédito
+pagar_com_um_cartao_credito: Pagar com 1
+pagar_com_dois_cartoes_credito: Pagar com 2
+
+pagar_com_boleto_cartao_credito: Boleto e Cartão
+
+opcao_pagamento_revo: div[class="lst-item-action lst-item-cell-expanded"]
+tipo_pagamento_revo: li[class="lst-item"]
+
+# boleto_bancario: Boleto bancário - antigo
+boleto_bancario: Boleto
+pagar_com_boleto: div[class="lst-item-cell lst-item-cell-expanded"]
+botao_finalizar_compra_boleto: button[type="button "]
+
+visa_checkout: Visa Checkout
+pagar_com_visa_checkout: div[class="v-checkout-wrapper"]
+botao_finalizar_compra_visacheckout: img[class="v-button"]
+
+paypal: PayPal
+pagar_com_paypal: div[class="lst-item-cell lst-item-cell-expanded"]
+botao_finalizar_compra_paypal: button[ng-click="clickButton()"]
+# numero_pedido_paypal: span[class="item-number ng-binding"]
+
+# PAGINA DO PAYPAL #
+menu_paypal: span[class="arrow ng-scope"]
+link_mais: a[class="more ng-binding"]
+link_menos: a[ng-click="onClickLess()"]
+
+redepay: Rede Pay
+loader: div[class='spinner']
+botao_finalizar_compra_cartao: button[type="submit "]
+campo_valor_boleto: input[id="value"]
+botao_avancar_cartao: button[class="primary expanded btn button-loading active"]
+botao_avancar_boleto: div[class="button-loading-description"]
+
+cartao: input[id='number']
+nome_titular: input[id='name']
+validade: input[id='expirationDate']
+codigo_seguranca: input[id='securityCode']
+parcelas: select[id='installments']
+botao_continuar_dois_cartoes: input[value='Continuar para o cartão dois']
+
+# PAGINA VISA CHECKOUT #
+visa_email: iframe[id="vcop-src-frame"]
+botao_reiniciar_checkout: button[class="ghost-layer-reopen"]
+
+# RESUMO #
+botao_finalizar_resumo: button[ng-click="checkout.finishPurchase()"]
+
+# FINALIZAÇÃO #
+numero_pedido: div[class=class='container-light-padded text-center']
+
+# PAGINA DE PESQUISA #
+visualizar_lista: .prod-list-view
+visualizar_2_itens: .prod-two-tiles-view
+visualizar_1_item: .prod-one-tile-view

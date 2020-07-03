@@ -1,0 +1,31 @@
+#PESSOA FISICA - VALIDO BLACKLIST
+# user_cpf_black_list: vinicius.rosa@cnova.com
+# password_cpf_black_list: 'teste2017'
+user_cpf_black_list: william.silva@hotmail.com
+password_cpf_black_list: teste2018
+
+#PESSOA FISICA - VALIDO NAO BLACKLIST
+# user_cpf_withe_list: testemobileqa@gmail.com
+# password_cpf_withe_list: viavarej0
+user_cpf_withe_list: testemobileqa2@gmail.com
+password_cpf_withe_list: viavarej0
+
+
+#PESSOA FISÍCA - invalido
+mail_user_pf_invalido: contato.wilva@hotmail.com
+pass_user_pf_invalido: teste017
+
+#PESSOA JURÍDICA - invalido
+mail_user_pf: automacacnpj@hotmail.com
+pass_user_pf: test217
+
+#PESSOA JURÍDICA - invalido
+mail_user_pf_invalido: automacacpj@hotmail.com
+pass_user_pf_invalido: tete017
+
+# FAKER DADOS CADASTRO #
+PF_faker: FFaker::IdentificationBR.cpf
+PJ_faker: FFaker::IdentificationBR.cnpj
+primeironome_faker: FFaker::NameBR.first_name
+sobrenome_faker: FFaker::NameBR.last_name
+email_faker: FFaker::NameBR.first_name

@@ -1,0 +1,16 @@
+
+default: --format pretty -p html -p pf -p chrome
+  # default: --format progress --format json --out=reports\json\<%= Time.now.strftime("%Y%m%d-%H%M%S%L") %>ReportBuilder.json
+html_report: --format progress --format html --out=reports/html/<%= Time.now.strftime("%Y%m%d-%H%M%S%L") %>-report.html
+xml_report: --format progress --format junit --out=features_report.xml
+html: --format html --out=report.html
+json: --format html --out=report.json
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+headless: BROWSER=headless
+cb: ENVIROMENT=cb
+ex: ENVIROMENT=ex
+pf: ENVIROMENT=pf
+bt: ENVIROMENT=bt
+hp: ENVIROMENT=hp
